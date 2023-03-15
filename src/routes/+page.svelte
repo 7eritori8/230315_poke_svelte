@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import SelectForm from '../lib/content/SelectForm.svelte';
+	import InfoPokemon from '../lib/content/InfoPokemon.svelte';
+</script>
+
+<SelectForm />
+<InfoPokemon />
